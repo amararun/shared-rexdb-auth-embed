@@ -35,6 +35,9 @@ VITE_API_ENDPOINT="your_api_endpoint_here"  # This is the endpoint URL for the F
 VITE_OPENAI_API_KEY="your_openai_api_key_here"  # Your OpenAI API Key.
 ```
 
+## 5A. Update flowise url in chat-box.tsx component
+There is one hardcoded flowise URL that remained to be linked to environment variable. Will fix that. Meanwhile, you would need to manually add that in chat-box.tsx on line number 109. 
+
 ### 6. Run the Development Server
 Start the development server:
 ```bash
